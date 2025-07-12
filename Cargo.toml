@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.98"
 cross_usb = "0.4.0"
 eframe = { version = "0.31", default-features = false, features = ["accesskit", "default_fonts", "wayland", "web_screen_reader", "wgpu", "x11"] }
 egui_extras = { version = "0.31", features = ["all_loaders", "image", "svg"] }
